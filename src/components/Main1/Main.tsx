@@ -97,13 +97,15 @@ export const Main = () => {
             </div>
           </div>
 
-          <div className="bg-gray-800 flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+          {/*  */}
+
+          <div className="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
             <a
               href="#"
               className="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48"
             >
               <Image
-                src="/item3.jpg"
+                src="/wws.jpg"
                 width={1000}
                 height={1000}
                 loading="lazy"
@@ -113,17 +115,17 @@ export const Main = () => {
             </a>
 
             <div className="flex flex-col gap-2 p-4 lg:p-6">
-              <h2 className="text-xl font-bold text-white">
+              <h2 className="text-xl font-bold text-gray-800">
                 <a
                   href="#"
                   className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                 >
-                  販売スタッフの教育
+                  WWSコクーンシティ店
                 </a>
               </h2>
 
-              <p className="text-white">
-                当社では、定期的に販売スタッフの教育を行っています。最新のトレンドやお客様のニーズを把握し、常に高いレベルの接客サービスを提供できるよう努めています
+              <p className="text-gray-500">
+                さいたま新都心コクーンシティ店に「WWS」が期間限定でオープン。オシャレに着る次世代スーツ。高機能かつシンプルなデザインを追求していて、大人かっこいいを手に入れる大チャンス。期間は10/2（水）～11/27（月）
               </p>
 
               <div>
