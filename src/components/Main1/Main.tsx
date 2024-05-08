@@ -97,16 +97,56 @@ export const Main = () => {
             </div>
           </div>
 
-          {/* <!-- article - end --> */}
-
-          {/* <!-- article - start --> */}
-          <div className="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+          <div className="bg-gray-800 flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
             <a
               href="#"
               className="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48"
             >
               <Image
-                src="/tomjerry.png "
+                src="/item3.jpg"
+                width={1000}
+                height={1000}
+                loading="lazy"
+                alt="Photo by Lorenzo Herrera"
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+            </a>
+
+            <div className="flex flex-col gap-2 p-4 lg:p-6">
+              <h2 className="text-xl font-bold text-white">
+                <a
+                  href="#"
+                  className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                >
+                  販売スタッフの教育
+                </a>
+              </h2>
+
+              <p className="text-white">
+                当社では、定期的に販売スタッフの教育を行っています。最新のトレンドやお客様のニーズを把握し、常に高いレベルの接客サービスを提供できるよう努めています
+              </p>
+
+              <div>
+                <a
+                  href="#"
+                  className="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- article - end --> */}
+
+          {/* <!-- article - start --> */}
+          {/* <div className="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+            <a
+              href="#"
+              className="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48"
+            >
+              <Image
+                src="/wws.jpg "
                 width={1000}
                 height={1000}
                 loading="lazy"
@@ -140,7 +180,7 @@ export const Main = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <!-- article - end --> */}
 
