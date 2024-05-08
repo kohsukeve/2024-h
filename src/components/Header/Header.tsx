@@ -159,7 +159,7 @@ export const Header = () => {
           <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
             {/* <img src="https://images.unsplash.com/photo-1620206343767-7da98185edd4?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Fakurian Design" className="h-full w-full object-cover object-center" /> */}
             <Image
-              src="/item.jpg "
+              src="/item.jpg"
               width={500}
               height={500}
               loading="lazy"
